@@ -12,12 +12,4 @@ export default defineNuxtConfig({
   ssr: false,
 
   modules: ['@pinia/nuxt', 'nuxt-lucide-icons', '@vueuse/motion/nuxt'],
-
-  // Add server middleware
-  serverMiddleware: [
-    (req, res, next) => {
-      res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
-      next();
-    }
-  ]
 });
