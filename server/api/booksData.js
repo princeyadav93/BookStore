@@ -26,7 +26,7 @@ export default defineEventHandler((event) => {
             name: 'The Hobbit unexpected journey',
             price: 180,
             description: "Bilbo Baggins lives a quiet, peaceful life in his comfortable hole at Bag End. Bilbo lives in a hole because he is a hobbit—one of a race of small, plump people about half the size of humans, with furry toes and a great love of good food and drink. Bilbo is quite content at Bag End, near the bustling hobbit village of Hobbiton, but one day his comfort is shattered by the arrival of the old wizard Gandalf, who persuades Bilbo",
-            image: 'https://nuriakenya.com/wp-content/uploads/2023/02/The-Hobbit-nuriakenya-700x1074.jpg',
+            image: 'https://storiesfromtheweb.org/wp-content/uploads/2023/07/The-Hobbit-by-J.R.R.-Tolkien-640x999.jpg',
         },
         {
             id: 5,
@@ -37,10 +37,10 @@ export default defineEventHandler((event) => {
         },
         {
             id: 6,
-            name: 'The Hobbit',
+            name: 'The Hobbit unexpected journey',
             description: "Bilbo Baggins lives a quiet, peaceful life in his comfortable hole at Bag End. Bilbo lives in a hole because he is a hobbit—one of a race of small, plump people about half the size of humans, with furry toes and a great love of good food and drink. Bilbo is quite content at Bag End, near the bustling hobbit village of Hobbiton, but one day his comfort is shattered by the arrival of the old wizard Gandalf, who persuades Bilbo",
             price: 180,
-            image: 'https://nuriakenya.com/wp-content/uploads/2023/02/The-Hobbit-nuriakenya-700x1074.jpg',
+            image: 'https://storiesfromtheweb.org/wp-content/uploads/2023/07/The-Hobbit-by-J.R.R.-Tolkien-640x999.jpg',
         },
         {
             id: 7,
