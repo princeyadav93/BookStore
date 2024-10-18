@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
@@ -13,4 +12,12 @@ export default defineNuxtConfig({
   ssr: false,
 
   modules: ['@pinia/nuxt', 'nuxt-lucide-icons', '@vueuse/motion/nuxt'],
-})
+
+  // Add server middleware
+  serverMiddleware: [
+    (req, res, next) => {
+      res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
+      next();
+    }
+  ]
+});
